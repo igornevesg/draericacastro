@@ -6786,6 +6786,10 @@ section { padding: 80px 0; position: relative; width: 100%; overflow: hidden; z-
   }
 }
 
+.texto-banner-margem {
+  margin-top: 100px !important;
+}
+
 @media (max-width: 990px) {
   .none {
     display: none;
@@ -6802,6 +6806,17 @@ section { padding: 80px 0; position: relative; width: 100%; overflow: hidden; z-
   #sobre-mim.offset-1 {
     margin-left: 0px !important;
   }
+
+  .offset-1 {
+    margin-left: 0;
+  }
+.margin-top {
+  margin-top: 30px;
+}
+
+.col-lg-custom {
+  padding: 30px !important;
+}
 
 }
 
