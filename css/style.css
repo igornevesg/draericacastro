@@ -4060,7 +4060,7 @@ button.btn.btn-transparent.btn-inverted, .btn:not(.close):not(.mfp-close).btn-tr
 
 button.btn.btn-primary, .btn:not(.close):not(.mfp-close).btn-primary, a.btn:not([href]):not([tabindex]).btn-primary { background-color: #b07369; border-color: #b07369; }
 
-button.btn.btn-primary:hover, button.btn.btn-primary:focus, button.btn.btn-primary:not(:disabled):not(.disabled):active, button.btn.btn-primary:not(:disabled):not(.disabled).active, .btn:not(.close):not(.mfp-close).btn-primary:hover, .btn:not(.close):not(.mfp-close).btn-primary:focus, .btn:not(.close):not(.mfp-close).btn-primary:not(:disabled):not(.disabled):active, .btn:not(.close):not(.mfp-close).btn-primary:not(:disabled):not(.disabled).active, a.btn:not([href]):not([tabindex]).btn-primary:hover, a.btn:not([href]):not([tabindex]).btn-primary:focus, a.btn:not([href]):not([tabindex]).btn-primary:not(:disabled):not(.disabled):active, a.btn:not([href]):not([tabindex]).btn-primary:not(:disabled):not(.disabled).active { background-color: #0333e8; border-color: #0333e8; color: #fff; }
+button.btn.btn-primary:hover, button.btn.btn-primary:focus, button.btn.btn-primary:not(:disabled):not(.disabled):active, button.btn.btn-primary:not(:disabled):not(.disabled).active, .btn:not(.close):not(.mfp-close).btn-primary:hover, .btn:not(.close):not(.mfp-close).btn-primary:focus, .btn:not(.close):not(.mfp-close).btn-primary:not(:disabled):not(.disabled):active, .btn:not(.close):not(.mfp-close).btn-primary:not(:disabled):not(.disabled).active, a.btn:not([href]):not([tabindex]).btn-primary:hover, a.btn:not([href]):not([tabindex]).btn-primary:focus, a.btn:not([href]):not([tabindex]).btn-primary:not(:disabled):not(.disabled):active, a.btn:not([href]):not([tabindex]).btn-primary:not(:disabled):not(.disabled).active { background-color: #c59696; border-color: #c59696; color: #fff; }
 
 button.btn.btn-secondary, .btn:not(.close):not(.mfp-close).btn-secondary, a.btn:not([href]):not([tabindex]).btn-secondary { background-color: #c1c3ce; border-color: #c1c3ce; }
 
@@ -6783,5 +6783,39 @@ section { padding: 80px 0; position: relative; width: 100%; overflow: hidden; z-
 
   .fale {
     font-size: 10px !important;
+  }
+}
+
+@media (max-width: 990px) {
+  .none {
+    display: none;
+  }
+  
+  .diminuir-tamanho {
+    font-size: 2.5em !important;
+  }
+  
+  .texto-banner-margem {
+    margin-top: 50px !important;
+  }
+
+  #sobre-mim.offset-1 {
+    margin-left: 0px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  
+  .diminuir-tamanho {
+    font-size: 1.5em !important;
+    margin-top: 120px;
+    margin-bottom: 0px !important;
+  }
+
+  .btn-top.btn:not(.close):not(.mfp-close):not(.btn-creative):not(.btn-slide) {
+    padding: 0 10px;
+    font-size: 8px;
+    position: relative;
+    bottom: 20px;
   }
 }
