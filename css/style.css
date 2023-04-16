@@ -6802,6 +6802,7 @@ section { padding: 80px 0; position: relative; width: 100%; overflow: hidden; z-
   #sobre-mim.offset-1 {
     margin-left: 0px !important;
   }
+
 }
 
 @media (max-width: 768px) {
@@ -6810,6 +6811,7 @@ section { padding: 80px 0; position: relative; width: 100%; overflow: hidden; z-
     font-size: 1.5em !important;
     margin-top: 120px;
     margin-bottom: 0px !important;
+    line-height: 1.4em !important;
   }
 
   .btn-top.btn:not(.close):not(.mfp-close):not(.btn-creative):not(.btn-slide) {
