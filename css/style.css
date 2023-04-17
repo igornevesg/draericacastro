@@ -6835,4 +6835,13 @@ section { padding: 80px 0; position: relative; width: 100%; overflow: hidden; z-
     position: relative;
     bottom: 20px;
   }
+  .texto-banner-margem {
+    font-size: .9em;
+    font-weight: 400;
+    margin-top: 100px !important;
+  }
+  .diminuir-tamanho {
+    margin-top: 0px;
+  }
 }
+
