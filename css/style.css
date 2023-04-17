@@ -6843,5 +6843,15 @@ section { padding: 80px 0; position: relative; width: 100%; overflow: hidden; z-
   .diminuir-tamanho {
     margin-top: 0px;
   }
+  .eletro {
+    font-size: 3em !important;
+  }
+
+}
+
+@media (max-width: 600px) {
+  .eletro {
+    font-size: 2em !important;
+  }
 }
 
