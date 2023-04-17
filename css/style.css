@@ -6818,6 +6818,10 @@ section { padding: 80px 0; position: relative; width: 100%; overflow: hidden; z-
   padding: 30px !important;
 }
 
+.retirar-espaco {
+  margin-bottom: 0rem !important;
+}
+
 }
 
 @media (max-width: 768px) {
