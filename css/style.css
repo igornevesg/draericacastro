@@ -967,7 +967,7 @@ Main Menu: Responsive
 
 .header-extras #shopping-cart > a { position: relative; }
 
-.header-extras #shopping-cart > a .shopping-cart-items { position: absolute; z-index: 1; background: #b07369; border-radius: 50%; color: #fff; font-size: 9px; font-weight: 600; height: 13px; line-height: 10px; padding: 2px 4px; right: -6px; top: -6px; width: 13px; }
+.header-extras #shopping-cart > a .shopping-cart-items { position: absolute; z-index: 1; background: rgb(176, 115, 105); border-radius: 50%; color: #fff; font-size: 9px; font-weight: 600; height: 13px; line-height: 10px; padding: 2px 4px; right: -6px; top: -6px; width: 13px; }
 
 .header-extras .topbar-dropdown .title { line-height: inherit !important; letter-spacing: 1px; padding: 0; color: #1e2022; }
 
